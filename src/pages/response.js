@@ -3,11 +3,9 @@ import React, { useState } from "react"
 import Agent from "../components/Agent"
 
 import useAgentes from "../hooks/useAgentes"
-import useRAM from "../hooks/useRAM"
 
 const Response = () => {
   const agents = useAgentes()
-  console.log(agents)
   return (
     <div>
       <h3>Lista de Agentes</h3>
